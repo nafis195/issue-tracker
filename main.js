@@ -66,3 +66,18 @@ const fetchIssues = () => {
                               </div>`;
   }
 }
+
+
+
+//========================= Javascript Codes Added By Me =========================
+
+
+// active button calculation
+const addBtn = document.getElementById("add-btn");
+addBtn.addEventListener("click", function(){
+  let addActiveNbr = document.getElementById("active-nbr").innerText;
+  addActiveNbr = parseFloat(addActiveNbr) + 1;
+  document.getElementById("active-nbr").innerText = addActiveNbr;
+})
+
+// close button calculation

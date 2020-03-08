@@ -15,3 +15,7 @@ style.css
 .tracker-btn{
     margin-bottom: 20px;
 }
+
+.tracker-btn h5{
+    display: inline;
+}

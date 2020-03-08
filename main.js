@@ -1,3 +1,15 @@
+/*
+Bismillahir Rahmanir Rahim
+Nafis Chowdhury
+Issue Tracker
+main.js
+03/07/2020
+*/
+
+
+
+
+
 document.getElementById('issueInputForm').addEventListener('submit', submitIssue);
 
 function submitIssue(e) {
